@@ -12,6 +12,6 @@
 
 l1 =  [3, 4, 5, 8, 0, 3, 8, 5, 0, 3, 1, 5, 2, 3, 4, 2]
 
-ans = dict(map(lambda x : (x,list(l1).count(x)),l1))
+ans = dict(map(lambda x : (x,l1.count(x)),l1))
 
 print(ans)
