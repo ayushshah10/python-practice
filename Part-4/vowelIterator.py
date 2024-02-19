@@ -14,6 +14,8 @@
 # myiter = iter(myclass)
 
 # print(next(myiter))
+
+
 a = "abcde"
 vowelIter = iter(i for i in a if i in 'aeiou')
 print(next(vowelIter))
